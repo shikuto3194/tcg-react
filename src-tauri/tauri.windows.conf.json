@@ -1,0 +1,6 @@
+{
+  "bundle": {
+    "resources": { "icons/icon.ico": "tcg-manager-card.ico" },
+    "windows": { "nsis": { "installerHooks": "windows/installer-hooks.nsh" } }
+  }
+}

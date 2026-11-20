@@ -1,0 +1,34 @@
+.ownership-results-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:0.5em 0; }
+.ownership-results-actions { display:flex; align-items:center; gap:10px; }
+.ownership-results-actions > span { color:#666; font-size:0.9em; white-space:nowrap; }
+.ownership-results-actions button { padding:0.4em 0.6em; font-size:0.9em; }
+.ownership-mode-bar { position:sticky; top:0; z-index:20; flex-shrink:0; background:#fff; border-bottom:1px solid #ccc; padding:8px; }
+.ownership-mode-actions { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.ownership-mode-actions > span { display:flex; gap:8px; }
+.ownership-mode-actions button { padding:0.5em 0.8em; white-space:nowrap; }
+.ownership-mode-bar [role=alert] { margin:8px 0 0; color:#a34223; }
+button.ownership-secondary { background:#fff; color:#333; border-color:#999; }
+.ownership-totals { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.ownership-totals dt { color:#666; font-size:0.9em; }
+.ownership-totals dd { margin:4px 0 0; font-weight:bold; font-size:1.35em; }
+.ownership-summary details { margin:16px 0; }
+.ownership-summary summary { cursor:pointer; font-weight:bold; }
+.ownership-table-wrap { overflow-x:auto; }
+.ownership-table { width:100%; border-collapse:collapse; font-size:0.85em; margin:8px 0; }
+.ownership-table th, .ownership-table td { text-align:left; border-bottom:1px solid #ddd; padding:8px 4px; }
+.ownership-table tbody th { font-weight:normal; overflow-wrap:anywhere; }
+.ownership-table td { white-space:nowrap; }
+.ownership-changes { padding:0; list-style:none; }
+.ownership-changes button { display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px; width:100%; text-align:left; background:white; color:#222; border:1px solid #ddd; margin:4px 0; padding:8px; }
+.ownership-changes span { font-size:0.9em; }
+.owned-count-editor { text-align:center; margin:12px 0; }
+.owned-count-editor label { display:flex; flex-direction:column; gap:4px; font-size:0.9em; }
+.owned-count-editor input { width:7em; flex:none; text-align:center; box-sizing:border-box; }
+.owned-count-editor .cdm-deck-controls { margin-bottom:10px; }
+.ownership-usage { border-top:1px solid #ddd; margin:16px 0; padding-top:10px; }
+.ownership-usage ul { padding-left:1.2em; }
+@media (max-width:360px) {
+  .ownership-mode-actions { font-size:0.85em; gap:4px; }
+  .ownership-results-actions { gap:5px; }
+}
+.container.ownership-active { overflow-x:clip; }

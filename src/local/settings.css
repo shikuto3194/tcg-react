@@ -1,0 +1,49 @@
+/* モックで追加・変更した領域だけに適用。検索・デッキの既存CSSは上書きしない。 */
+.mock-settings { box-sizing: border-box; width: min(580px, 95vw); max-height: 90dvh; padding: 1em; border: 1px solid #bbb; border-radius: 10px; color: #222; background: #fff; overflow: auto; }
+.mock-settings::backdrop { background: rgba(0, 0, 0, 0.5); }
+.mock-settings-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.mock-settings-header h2 { margin: 0; font-size: 1.25em; }
+.local-settings-menu { display: grid; gap: 12px; margin: 20px 0; }
+.local-settings-menu button { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 18px 20px; font-size: 1.05em; text-align: left; }
+.local-settings-back { margin-top: 12px; background: transparent; color: #1565b0; border: 1px solid #bbccdb; }
+.local-artwork-preview { margin: 20px auto; text-align: center; color: #666; font-size: 0.85em; }
+.local-artwork-preview img { display: block; width: auto; height: auto; max-width: min(100%, 280px); max-height: 420px; margin: 0 auto 8px; }
+.mock-notice { padding: 0.7em; background: #f0f4f8; border-radius: 6px; color: #555; font-size: 0.85em; line-height: 1.6; }
+.mock-section { padding: 0.5em 0 1em; border-bottom: 1px solid #ddd; }
+.mock-section h3 { margin: 0.7em 0; font-size: 1em; }
+.mock-section p { line-height: 1.6; font-size: 0.9em; }
+.mock-buttons, .mock-settings-actions { display: flex; gap: 0.6em; flex-wrap: wrap; }
+.mock-field-names { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7em 1em; }
+.mock-field-names label, .mock-stack { display: flex; flex-direction: column; gap: 5px; min-width: 0; font-size: 0.95em; }
+.mock-field-names input { width: 100%; min-width: 0; box-sizing: border-box; }
+.mock-stack { margin-bottom: 0.7em; }
+.mock-stack input, .mock-stack select, .mock-scenarios select { min-height: 36px; border: 1px solid #ccc; border-radius: 6px; padding: 0.45em; background: #fff; color: #222; font-size: 1em; }
+.mock-note { color: #666; font-size: 0.85em !important; line-height: 1.6; }
+.mock-settings-actions { justify-content: flex-end; margin: 1em 0; }
+.mock-cancel { background: #bbb; color: #222; border-color: #bbb; }
+.mock-scenarios { padding-top: 0.7em; border-top: 1px solid #ddd; }
+.mock-scenarios summary { cursor: pointer; color: #555; }
+.mock-scenarios button { margin-left: 0.6em; }
+.mock-add-field { margin-top: 0.7em; min-width: 44px; }
+.mock-format { white-space: pre-wrap; overflow-wrap: anywhere; padding: 0.7em; background: #f0f4f8; font-size: 0.8em; }
+.mock-edit-actions { display: flex; gap: 0.6em; justify-content: flex-end; margin-top: 1em; clear: both; }
+.mock-card-editor { display: flow-root; min-width: 0; }
+.mock-card-editor input, .mock-card-editor textarea { box-sizing: border-box; width: 100%; min-width: 0; }
+.mock-card-editor textarea { font: inherit; padding: 0.5em; resize: vertical; }
+.mock-home { padding-bottom: 1em; }
+.mock-game-add { display: flex; gap: 0.6em; flex-wrap: wrap; }
+.mock-game-add input { flex: 1; min-width: 150px; }
+.mock-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.7em; }
+.mock-stats > * { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.4em; border: 1px solid #d4e0eb; background: #f5f8fc; color: #333; border-radius: 8px; padding: 1em 0.5em; font-size: 0.9em; }
+.mock-stats strong { color: #1976d2; font-size: 1.8em; }
+.mock-game-list { display: grid; gap: 0.5em; }
+.mock-game-list button { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5em; text-align: left; background: #fff; color: #333; border: 1px solid #ddd; }
+.mock-game-list button[aria-current] { border-color: #1976d2; background: #f0f6fd; }
+.mock-game-list small { color: #666; }
+@media (max-width: 500px) { .mock-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.local-save-status { font-size: 12px; color: #4c6655; margin-right: 10px; }
+.local-save-status.error { color: #b42318; font-weight: bold; }
+@media(max-width:600px) { .local-save-status { max-width: 9em; font-size: 10px; } }
+.field-setting { display:flex; align-items:flex-end; gap:6px; min-width:0; }
+.field-setting label { flex:1; min-width:0; }
+.field-setting button { padding:7px; flex-shrink:0; }

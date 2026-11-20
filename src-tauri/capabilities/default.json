@@ -1,0 +1,38 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "enables the default permissions",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "fs:default",
+    "fs:allow-read-file",
+    "fs:allow-write-file",
+    "fs:allow-open",
+    "fs:allow-read",
+    "fs:allow-write",
+    "fs:allow-remove",
+    "fs:allow-read-dir",
+    "fs:allow-stat",
+    "fs:allow-mkdir",
+    {
+      "identifier": "fs:scope",
+      "allow": [
+        {
+          "path": "$APPDATA/**"
+        },
+        {
+          "path": "$APPCACHE/tcg-exports"
+        },
+        {
+          "path": "$APPCACHE/tcg-exports/**"
+        }
+      ]
+    },
+    "tcg-folder:default",
+    { "identifier": "opener:allow-open-path", "allow": [{ "path": "$APPCACHE/tcg-exports/**" }] }
+  ]
+}

@@ -1,0 +1,38 @@
+[package]
+name = "tcg-local"
+version = "0.1.1"
+description = "Local TCG library and MCP interface"
+authors = ["shikuto3194"]
+license-file = "../distribution/利用条件.txt"
+repository = ""
+edition = "2024"
+rust-version = "1.90"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.1", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+tauri = { version = "2.12.1", features = [] }
+tauri-plugin-log = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+tiny_http = "0.12"
+uuid = { version = "1", features = ["v4"] }
+base64 = "0.22"
+dirs = "6"
+tauri-plugin-tcg-folder = { path = "plugins/tcg-folder" }
+tauri-plugin-opener = "2"
+toml_edit = "0.25"
+tempfile = "3"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.62.2", features = ["Win32_Storage_EnhancedStorage", "Win32_System_Com_StructuredStorage", "Win32_System_LibraryLoader", "Win32_UI_Shell_PropertiesSystem", "Win32_UI_WindowsAndMessaging"] }

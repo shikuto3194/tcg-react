@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>{{name}} — 星環の庭</title>
+<style>body{background:#dedbd1;margin:0;display:grid;place-items:center;min-height:100vh}svg{width:min(94vw,504px);height:auto}</style></head><body>
+<!-- The SVG inside this editable HTML is also rasterized verbatim to the final PNG.
+     All text comes from cards.csv; the generated illustration contains no lettering. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="756" height="1056" viewBox="0 0 756 1056">
+<defs><clipPath id="art"><rect x="29" y="142" width="698" height="559" rx="3"/></clipPath><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fffcf2"/><stop offset="1" stop-color="#eee4ce"/></linearGradient></defs>
+<style>
+text{font-family:'Yu Gothic','Meiryo','Noto Sans CJK JP',sans-serif;fill:#272c29}
+.gold{fill:#ad8a49}.small{font-size:16px;letter-spacing:2px}.title{font-size:{{titleSize}}px;font-weight:700}.body{font-size:32px;font-weight:500}.flavor{font-size:22px;fill:#696657}.white{fill:#fffaf0}
+</style>
+<rect width="756" height="1056" rx="26" fill="{{color}}"/>
+<rect x="13" y="13" width="730" height="1030" rx="19" fill="url(#paper)" stroke="#bb9854" stroke-width="3"/>
+<rect x="22" y="22" width="712" height="1012" rx="13" fill="none" stroke="{{color}}"/>
+<path d="M34 39H309L323 29H433L447 39H722" fill="none" stroke="#ad8a49" stroke-width="2"/>
+<text x="378" y="59" text-anchor="middle" class="small gold">星 環 の 庭</text>
+<circle cx="76" cy="101" r="41" fill="{{color}}" stroke="#cbaa66" stroke-width="3"/>
+<text x="76" y="92" text-anchor="middle" style="font-size:12px;letter-spacing:1px" class="white">コスト</text>
+<text x="76" y="124" text-anchor="middle" style="font-size:36px;font-weight:700" class="white">{{cost}}</text>
+<text x="137" y="113" class="title">{{name}}</text>
+<rect x="28" y="141" width="700" height="561" fill="{{color}}" stroke="#ad8a49" stroke-width="2"/>
+<image xlink:href="{{art}}" x="29" y="142" width="698" height="559" preserveAspectRatio="{{fit}}" clip-path="url(#art)"/>
+<rect x="29" y="658" width="698" height="43" fill="{{color}}" opacity=".94"/>
+<text x="47" y="687" style="font-size:20px;letter-spacing:2px" class="white">{{garden}}　／　{{kind}}・{{tribe}}</text>
+<text x="707" y="687" text-anchor="end" style="font-size:21px;font-weight:700" class="white">{{rarity}}</text>
+<path d="M46 725H328L339 715H417L428 725H710" fill="none" stroke="#ad8a49" stroke-width="1.4"/>
+<text class="body">{{effectLines}}</text>
+<path d="M48 887H708" stroke="#c6b38c"/>
+<text class="flavor">{{flavorLines}}</text>
+<circle cx="663" cy="989" r="34" fill="{{color}}" stroke="#ad8a49" stroke-width="2"/>
+<text x="663" y="983" text-anchor="middle" style="font-size:13px" class="white">力</text>
+<text x="663" y="1010" text-anchor="middle" style="font-size:29px;font-weight:700" class="white">{{power}}</text>
+<text x="48" y="994" class="small">{{number}}　・　星灯のはじまり</text>
+<text x="48" y="1017" style="font-size:12px;letter-spacing:1.5px;fill:#797568">THE STARLIT GARDENS　 /　 ORIGINAL SAMPLE 01</text>
+</svg></body></html>

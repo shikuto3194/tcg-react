@@ -1,0 +1,53 @@
+import { test, expect } from '@playwright/test';
+
+for (const width of [1280, 390]) test(`ゲーム削除の確認・取消・失敗・再試行・最後の1件と再起動 (${width}px)`, async ({ page }, testInfo) => {
+  await page.setViewportSize({ width, height: width === 390 ? 844 : 900 });
+  const errors = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  const games = page.getByRole('combobox', { name: 'ゲーム', exact: true });
+  const dialog = page.getByRole('dialog', { name: 'ゲームを削除', exact: true });
+  const selected = () => games.locator('option:checked');
+  await games.selectOption('__add');
+  await page.getByRole('dialog').getByLabel('ゲーム名', { exact: true }).fill('残すゲーム');
+  await page.getByRole('dialog').getByRole('button', { name: '追加', exact: true }).click();
+  const preservedId = await games.inputValue();
+  await games.selectOption('sample'); await games.selectOption('__delete');
+  await expect(dialog).toContainText('星環の庭');
+  await expect(dialog).toContainText('カード・画像・作成中／保存デッキ・所持枚数・戦績・設定');
+  await expect(dialog.getByRole('button', { name: '削除する', exact: true })).toBeDisabled();
+  await expect(dialog.getByRole('button', { name: 'キャンセル', exact: true })).toBeFocused();
+  await page.screenshot({ path: testInfo.outputPath('delete-confirm.png') });
+  await dialog.getByRole('button', { name: 'キャンセル', exact: true }).click();
+  await expect(selected()).toHaveText('星環の庭');
+  await games.selectOption('__delete'); await page.keyboard.press('Escape');
+  await expect(dialog).toHaveCount(0);
+  await page.evaluate(() => {
+    window.failGameDeletion = true;
+    const put = IDBObjectStore.prototype.put;
+    IDBObjectStore.prototype.put = function (...args) {
+      if (window.failGameDeletion && this.name === 'library' && !args[0].games.some(game => game.gameId === 'sample')) throw new DOMException('容量不足', 'QuotaExceededError');
+      return put.apply(this, args);
+    };
+  });
+  await games.selectOption('__delete'); await dialog.getByRole('checkbox').check();
+  await dialog.getByRole('button', { name: '削除する', exact: true }).click();
+  await expect(dialog.getByRole('alert')).toContainText('データは残っています');
+  await expect(selected()).toHaveText('星環の庭');
+  await page.evaluate(() => { window.failGameDeletion = false; });
+  await dialog.getByRole('button', { name: 'キャンセル', exact: true }).click();
+  await page.reload(); await expect(selected()).toHaveText('星環の庭');
+  await games.selectOption('__delete'); await dialog.getByRole('checkbox').check();
+  await dialog.getByRole('button', { name: '削除する', exact: true }).click();
+  await expect(dialog).toHaveCount(0); await expect(games).toHaveValue(preservedId);
+  await expect(games.locator('option[value="sample"]')).toHaveCount(0);
+  await page.reload(); await expect(selected()).toHaveText('残すゲーム');
+  await games.selectOption('__delete');
+  await expect(dialog).toContainText('空の「新しいゲーム」が作られます');
+  await dialog.getByRole('checkbox').check();
+  await dialog.getByRole('button', { name: '削除する', exact: true }).click();
+  await expect(selected()).toHaveText('新しいゲーム');
+  await page.reload(); await expect(selected()).toHaveText('新しいゲーム');
+  await page.getByRole('button', { name: 'カード検索', exact: true }).click();
+  await expect(page.locator('.builder-cards:visible .plusBtn')).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

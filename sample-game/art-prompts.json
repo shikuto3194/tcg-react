@@ -1,0 +1,287 @@
+{
+  "tool": "OpenAI imagegen",
+  "reference": "art/01.webp (style and world continuity)",
+  "text": "Generated illustrations contain no lettering. HTML template and CSV produce final card PNGs.",
+  "cards": [
+    {
+      "id": 10001,
+      "name": "星種を運ぶ仔狐",
+      "art": "art/01.webp",
+      "prompt": "Use case: stylized-concept. Asset type: original premium fantasy card-game illustration, first of a coherent 40-art set titled THE STARLIT GARDENS. Create ONE polished square illustration, no text, no letters, no card border, no logos. Subject: a graceful small ivory fox spirit with precisely four legs and one flowing leafy tail, bearing a single luminous amber star-shaped seed in its mouth, standing on a mossy stone bridge in an enchanted spring garden. Emerald leaves, tiny white flowers, antique pale stone circular arches, floating warm golden fireflies. Art direction: luminous hand-painted storybook fantasy, elegant traditional gouache and fine oil detail, soft atmospheric depth, art-nouveau botanical motifs integrated in the environment, refined rich color harmonies, premium collector-card illustration. Crisp readable silhouette, medium wide view with complete animal anatomy, subject centered within central 70%, generous environment, believable paws and eyes, no anthropomorphic hands, no excessive decorative clutter. Spring faction palette deep viridian, pale jade, ivory, warm gold. Beautiful and inviting rather than sinister. Distinct foreground/midground/background, directional sunlight from upper left. Fully original, no resemblance to existing franchises. Output exactly one illustration, not a collage.",
+      "composition": "Initial garden character composition"
+    },
+    {
+      "id": 10002,
+      "name": "露玉の案内人",
+      "art": "art/02.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. charming adult rabbit-eared young woman garden guide, expressive amber anime eyes, short ivory hair, jade capelet with delicate white flower embroidery, ivory dress, holding a single dew pearl between elegant gloved fingers. Composition: waist-up three-quarter portrait, leaning slightly toward viewer, character left third, luminous dew orb right, welcoming smile. Palette: spring emerald jade and ivory, white blossoms. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "waist-up three-quarter portrait, leaning slightly toward viewer, character left third, luminous dew orb right, welcoming smile"
+    },
+    {
+      "id": 10003,
+      "name": "花冠の鹿",
+      "art": "art/03.webp",
+      "prompt": "Original premium fantasy card illustration ONE square painting, no words, borders or collage. Subject: elegant white deer with flowering antlers in a sunlit circular garden gate. COMPOSITION priority: EXTREME WIDE landscape establishing shot. Tiny graceful realistic deer in profile on LEFT LOWER THIRD occupies only 18 percent of image, gazing across broad tranquil jade lake; distant waterfalls and mist, no arched gateway. Long horizontal shore line, generous pale sky. Deer has deer muzzle, NOT a fox.. Shared world THE STARLIT GARDENS: elegant luminous painterly gouache with fine oil details, botanical art nouveau accents, subtle magical star motifs. Spring jade/viridian, ivory and warm gold. Reference image is ONLY for painting quality and palette. DO NOT copy its centered portrait, bridge, repeated arch framing, camera angle or background. Coherent subject anatomy. Artistic editorial variety.",
+      "composition": "EXTREME WIDE landscape establishing shot. Tiny graceful realistic deer in profile on LEFT LOWER THIRD occupies only 18 percent of image, gazing across broad tranquil jade lake; distant waterfalls and mist, no arched gateway. Long horizontal shore line, generous pale sky. Deer has deer muzzle, NOT a fox."
+    },
+    {
+      "id": 10004,
+      "name": "苔むす甲羅の守り手",
+      "art": "art/04.webp",
+      "prompt": "Create ONE original square fantasy illustration for THE STARLIT GARDENS. Reference image is STYLE ONLY. New subject: ancient moss covered tortoise carrying a tiny flowering garden beside pale stone fountain. Spring palette viridian jade ivory warm gold. Premium luminous hand-painted storybook fantasy, elegant gouache and fine oil detail, botanical art nouveau, atmospheric depth, pale antique stone arches, golden star motes. Clear readable silhouette centered within central 70%, full coherent anatomy where applicable, no extra limbs. No text, letters, numbers, border, logo or collage. Environment detailed but uncluttered. Match reference artistry, not its fox subject.",
+      "composition": "Initial garden character composition"
+    },
+    {
+      "id": 10005,
+      "name": "梢を渡る風鳥",
+      "art": "art/05.webp",
+      "prompt": "Create ONE original square fantasy illustration for THE STARLIT GARDENS. Reference image is STYLE ONLY. New subject: single elegant jade bird with two wings flying between flowering branches above ancient gardens. Spring palette viridian jade ivory warm gold. Premium luminous hand-painted storybook fantasy, elegant gouache and fine oil detail, botanical art nouveau, atmospheric depth, pale antique stone arches, golden star motes. Clear readable silhouette centered within central 70%, full coherent anatomy where applicable, no extra limbs. No text, letters, numbers, border, logo or collage. Environment detailed but uncluttered. Match reference artistry, not its fox subject.",
+      "composition": "Initial garden character composition"
+    },
+    {
+      "id": 10006,
+      "name": "芽吹きの庭姫",
+      "art": "art/06.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. beautiful adult spring garden princess, long pale jade hair interwoven with tiny white blossoms, bright gentle anime eyes, elegant layered ivory and deep emerald botanical gown, gold star brooch. Composition: full figure sitting sideways on a giant tree root, flowing gown sweeps diagonally, gaze down toward tiny star sprout, low camera. Palette: spring emerald jade and ivory, white blossoms. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "full figure sitting sideways on a giant tree root, flowing gown sweeps diagonally, gaze down toward tiny star sprout, low camera"
+    },
+    {
+      "id": 10007,
+      "name": "やさしい雨",
+      "art": "art/07.webp",
+      "prompt": "Original premium fantasy card illustration ONE square painting, no words, borders or collage. Subject: golden spring rain falling on translucent green leaves and glowing star seeds no creatures. COMPOSITION priority: EXTREME MACRO of a single leaf at diagonal with translucent rain drops and reflected golden stars. Shallow focus, dark emerald background with elegant bokeh, no animal or architecture.. Shared world THE STARLIT GARDENS: elegant luminous painterly gouache with fine oil details, botanical art nouveau accents, subtle magical star motifs. Spring jade/viridian, ivory and warm gold. Reference image is ONLY for painting quality and palette. DO NOT copy its centered portrait, bridge, repeated arch framing, camera angle or background. Coherent subject anatomy. Artistic editorial variety.",
+      "composition": "EXTREME MACRO of a single leaf at diagonal with translucent rain drops and reflected golden stars. Shallow focus, dark emerald background with elegant bokeh, no animal or architecture."
+    },
+    {
+      "id": 10008,
+      "name": "再生の花環",
+      "art": "art/08.webp",
+      "prompt": "Original premium fantasy card illustration ONE square painting, no words, borders or collage. Subject: floating circular wreath of ivory blossoms and jade leaves glowing above a mossy stone altar. COMPOSITION priority: TOP DOWN still life, flower wreath on ancient circular pale stone table. Offset to lower right, loose petals drifting across left negative space, delicate concentric ripples.. Shared world THE STARLIT GARDENS: elegant luminous painterly gouache with fine oil details, botanical art nouveau accents, subtle magical star motifs. Spring jade/viridian, ivory and warm gold. Reference image is ONLY for painting quality and palette. DO NOT copy its centered portrait, bridge, repeated arch framing, camera angle or background. Coherent subject anatomy. Artistic editorial variety.",
+      "composition": "TOP DOWN still life, flower wreath on ancient circular pale stone table. Offset to lower right, loose petals drifting across left negative space, delicate concentric ripples."
+    },
+    {
+      "id": 10009,
+      "name": "木漏れ日の道",
+      "art": "art/09.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject inviting winding path through emerald grove with pale arches and shafts of warm golden sunlight. Composition MUST be distinct: LOW POV winding path vanishing to upper right, no creature, shadowed fern foreground, alternating sun and deep shade. Spring emerald jade ivory warm gold. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "LOW POV winding path vanishing to upper right, no creature, shadowed fern foreground, alternating sun and deep shade"
+    },
+    {
+      "id": 10010,
+      "name": "春の星祭り",
+      "art": "art/10.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject enchanting spring garden festival with floating amber star lanterns flowering trees and white marble no people. Composition MUST be distinct: BIRD EYE high aerial view of radial garden parterres under BLUE HOUR sky, dozens of tiny golden star lights flowing diagonally, no central character. Spring emerald jade ivory warm gold. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "BIRD EYE high aerial view of radial garden parterres under BLUE HOUR sky, dozens of tiny golden star lights flowing diagonally, no central character"
+    },
+    {
+      "id": 10011,
+      "name": "灯芯の猫術師",
+      "art": "art/11.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. playful adult lynx-eared female mage, short copper hair with dark tufted feline ears, expressive amber anime eyes, warm mischievous smile, crimson cape and ivory high neck embroidered blouse, floating tiny star shaped flame above her open gloved palm. Composition: dynamic three-quarter bust turned over her shoulder, playful grin toward viewer, flame on left and face on right, wind moving cape. Palette: summer crimson amber gold and ivory. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "dynamic three-quarter bust turned over her shoulder, playful grin toward viewer, flame on left and face on right, wind moving cape"
+    },
+    {
+      "id": 10012,
+      "name": "陽だまりの火蜥蜴",
+      "art": "art/12.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject copper orange salamander precisely four legs resting on warm ivory mosaic stones tiny floating embers. Composition MUST be distinct: DIRECTLY OVERHEAD salamander crawling diagonally across mosaic tile, four legs visible, strong graphic shadows, moss at lower corner. Summer deep crimson, copper, amber orange, ivory, warm golden firelight; NOT green spring foliage. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "DIRECTLY OVERHEAD salamander crawling diagonally across mosaic tile, four legs visible, strong graphic shadows, moss at lower corner"
+    },
+    {
+      "id": 10013,
+      "name": "暁羽の隼",
+      "art": "art/13.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject single golden falcon with two symmetrical wings swooping over sunflowers and circular white garden tower. Composition MUST be distinct: DYNAMIC steep diagonal DIVE seen from above, falcon flying lower left with exactly two wings, sunflowers far below, motion, no framing arch. Summer deep crimson, copper, amber orange, ivory, warm golden firelight; NOT green spring foliage. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "DYNAMIC steep diagonal DIVE seen from above, falcon flying lower left with exactly two wings, sunflowers far below, motion, no framing arch"
+    },
+    {
+      "id": 10014,
+      "name": "琥珀角の牡羊",
+      "art": "art/14.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject strong ivory ram with two amber spiral horns standing on terracotta garden terrace sunset light. Composition MUST be distinct: WIDE SIDE VIEW ram on right third silhouetted against immense orange sunset, spacious landscape, terracotta steps sweeping horizontally. Summer deep crimson, copper, amber orange, ivory, warm golden firelight; NOT green spring foliage. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "WIDE SIDE VIEW ram on right third silhouetted against immense orange sunset, spacious landscape, terracotta steps sweeping horizontally"
+    },
+    {
+      "id": 10015,
+      "name": "炉守りの獅子姫",
+      "art": "art/15.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. confident beautiful adult lion-eared female guardian, long golden mane-like hair, amber anime eyes, ivory and bronze ceremonial armor with crimson cloak, gentle proud smile, ornate bronze brazier beside her. Composition: waist up regal guardian at left, proud gentle smile looking across frame toward brazier at right, strong warm side lighting. Palette: summer crimson amber gold and ivory. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "waist up regal guardian at left, proud gentle smile looking across frame toward brazier at right, strong warm side lighting"
+    },
+    {
+      "id": 10016,
+      "name": "真昼の不死鳥",
+      "art": "art/16.webp",
+      "prompt": "ONE original square card illustration, no text or border. Subject majestic single phoenix with exactly two fiery gold wings and long feather tail soaring above sunlit marble gardens. Composition MUST be distinct: DRAMATIC WORM EYE below phoenix spiraling upward, wings create strong asymmetry, vast brilliant amber sky, tiny gardens below, no arch frame. Summer deep crimson, copper, amber orange, ivory, warm golden firelight; NOT green spring foliage. THE STARLIT GARDENS fantasy world. Luminous hand-painted gouache and refined oil detail, subtle art nouveau botanical motifs, elegant premium collector art, natural coherent anatomy. Reference image STYLE QUALITY only, do NOT repeat its centered fox, bridge or circular arch framing. NOT a collage. Square canvas.",
+      "composition": "DRAMATIC WORM EYE below phoenix spiraling upward, wings create strong asymmetry, vast brilliant amber sky, tiny gardens below, no arch frame"
+    },
+    {
+      "id": 10017,
+      "name": "ひとすじの火花",
+      "art": "art/17.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject one delicate golden spark winding through crimson poppies and pale stone garden arch no creatures. Required camera/composition: MACRO a bright zigzag spark weaving between dark red poppy petals, abstract diagonal motion, no building or central animal. Summer palette crimson copper amber orange dark warm shadows. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "MACRO a bright zigzag spark weaving between dark red poppy petals, abstract diagonal motion, no building or central animal"
+    },
+    {
+      "id": 10018,
+      "name": "灯籠の招き",
+      "art": "art/18.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject elegant bronze lantern with amber star inside resting amid summer flowers beside garden gate no text. Required camera/composition: STILL LIFE bronze lantern at LEFT third closeup, warm luminous star inside, dark terracotta wall, flowers and strong long shadow leading right. Summer palette crimson copper amber orange dark warm shadows. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "STILL LIFE bronze lantern at LEFT third closeup, warm luminous star inside, dark terracotta wall, flowers and strong long shadow leading right"
+    },
+    {
+      "id": 10019,
+      "name": "朱い流星",
+      "art": "art/19.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject single luminous red gold meteor arcing above an amber garden lake twilight vivid refined. Required camera/composition: PANORAMIC scene on SQUARE canvas: horizon at bottom quarter, large quiet plum dusk sky, single brilliant curved meteor upper right, distant garden lake, no centered subject. Summer palette crimson copper amber orange dark warm shadows. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "PANORAMIC scene on SQUARE canvas: horizon at bottom quarter, large quiet plum dusk sky, single brilliant curved meteor upper right, distant garden lake, no centered subject"
+    },
+    {
+      "id": 10020,
+      "name": "夏の星祭り",
+      "art": "art/20.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject summer garden festival amber star lanterns terracotta terraces red flowers warm orange twilight no people. Required camera/composition: LOW WATERLINE view across dark reflecting pool, summer festival terraces distant, glowing lanterns overhead making a diagonal trail, rich warm firelights at night. Summer palette crimson copper amber orange dark warm shadows. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "LOW WATERLINE view across dark reflecting pool, summer festival terraces distant, glowing lanterns overhead making a diagonal trail, rich warm firelights at night"
+    },
+    {
+      "id": 10021,
+      "name": "落葉を編む栗鼠",
+      "art": "art/21.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject single chestnut squirrel holding one golden leaf on acorn laden branch autumn marble garden. Required camera/composition: VIEW FROM BELOW a squirrel climbing DOWN a diagonal branch, head in lower right, bushy tail upper left, acorns hanging overhead, cozy autumn. Autumn palette bronze, ochre, burgundy, muted mauve and ivory; maple and harvest rather than spring flowers. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "VIEW FROM BELOW a squirrel climbing DOWN a diagonal branch, head in lower right, bushy tail upper left, acorns hanging overhead, cozy autumn"
+    },
+    {
+      "id": 10022,
+      "name": "銅鈴の梟",
+      "art": "art/22.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject small tawny owl with a bronze bell pendant perched on pale garden balustrade autumn maple leaves. Required camera/composition: FRONT CLOSEUP small tawny owl fills left two thirds, natural wing folded, bronze bell hanging safely from perch rather than neck, eyes alert, dark burgundy foliage behind. Autumn palette bronze, ochre, burgundy, muted mauve and ivory; maple and harvest rather than spring flowers. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "FRONT CLOSEUP small tawny owl fills left two thirds, natural wing folded, bronze bell hanging safely from perch rather than neck, eyes alert, dark burgundy foliage behind"
+    },
+    {
+      "id": 10023,
+      "name": "実りの菓子職人",
+      "art": "art/23.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. cute adult badger-eared female pastry artisan, short warm brown hair with ivory streak, expressive honey anime eyes, ochre dress and ivory apron with maple embroidery, offering a small basket of star shaped pastries. Composition: waist-up friendly offering gesture, pastry basket in foreground and face slightly right, intimate warm orchard kitchen, avoid repetitive arch framing. Palette: autumn bronze burgundy ochre and ivory. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "waist-up friendly offering gesture, pastry basket in foreground and face slightly right, intimate warm orchard kitchen, avoid repetitive arch framing"
+    },
+    {
+      "id": 10024,
+      "name": "夕映えの野牛",
+      "art": "art/24.webp",
+      "prompt": "Create ONE original square illustration for fantasy card game THE STARLIT GARDENS. Subject majestic brown bison with two ivory horns crossing golden grasses under ancient white arches at sunset. Required camera/composition: DISTANT WIDE PROFILE massive bison walking left through golden grasses, figure lower third, rolling amber hills and mauve clouds dominate, simple natural background no buildings. Autumn palette bronze, ochre, burgundy, muted mauve and ivory; maple and harvest rather than spring flowers. Premium luminous hand painted gouache / fine oil illustration, botanical art nouveau details, refined elegance and coherent animal anatomy. Reference is STYLE QUALITY ONLY; different scene composition; do not copy fox or bridge. No text, letters, logos, borders or collage.",
+      "composition": "DISTANT WIDE PROFILE massive bison walking left through golden grasses, figure lower third, rolling amber hills and mauve clouds dominate, simple natural background no buildings"
+    },
+    {
+      "id": 10025,
+      "name": "書庫の梟司書",
+      "art": "art/25.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. beautiful adult owl-themed female librarian, silver bob hair and small feather hair ornaments, round bronze spectacles, thoughtful hazel anime eyes, ivory high collar blouse, burgundy capelet, holding a closed leather book with blank cover. Composition: seated at open air garden library desk, three quarter view from slightly above, looking up from book with small smile, shelves diagonal behind, only two hands. Palette: autumn bronze burgundy ochre and ivory. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "seated at open air garden library desk, three quarter view from slightly above, looking up from book with small smile, shelves diagonal behind, only two hands"
+    },
+    {
+      "id": 10026,
+      "name": "黄昏の麒麟",
+      "art": "art/26.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: original graceful kirin deer spirit four slender legs single golden horn bronze leaf mane at autumn pool. Critical composition: FULL PROFILE four leg kirin at right on mossy islet, long reflection in quiet autumn pool stretching to left, misty burgundy maple grove, elegant single horn, no central arch. Autumn palette bronze, ochre, burgundy and mauve; soft amber star glow. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "FULL PROFILE four leg kirin at right on mossy islet, long reflection in quiet autumn pool stretching to left, misty burgundy maple grove, elegant single horn, no central arch"
+    },
+    {
+      "id": 10027,
+      "name": "拾い集めた記憶",
+      "art": "art/27.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: delicate amber glass memory orb with one maple leaf floating inside on antique garden pedestal. Critical composition: MACRO glass orb at lower left containing a single maple leaf, curved reflections of a garden, dark out of focus background, artistic close still life. Autumn palette bronze, ochre, burgundy and mauve; soft amber star glow. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "MACRO glass orb at lower left containing a single maple leaf, curved reflections of a garden, dark out of focus background, artistic close still life"
+    },
+    {
+      "id": 10028,
+      "name": "琥珀の砂時計",
+      "art": "art/28.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: ornate bronze hourglass containing luminous golden sand surrounded by red autumn leaves white stone altar. Critical composition: SIDE close still life hourglass slightly angled on old wood desk, gold sand clearly falls through one narrow neck, shafts of light with dust, burgundy shadows, no arches. Autumn palette bronze, ochre, burgundy and mauve; soft amber star glow. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "SIDE close still life hourglass slightly angled on old wood desk, gold sand clearly falls through one narrow neck, shafts of light with dust, burgundy shadows, no arches"
+    },
+    {
+      "id": 10029,
+      "name": "帰り道のしるべ",
+      "art": "art/29.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: warm amber lantern illuminating leaf covered winding path under ivory autumn garden arches no text. Critical composition: HIGH OVERHEAD winding autumn path between hedges, small lantern in corner and long graceful shadow along leaves, no central portrait. Autumn palette bronze, ochre, burgundy and mauve; soft amber star glow. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "HIGH OVERHEAD winding autumn path between hedges, small lantern in corner and long graceful shadow along leaves, no central portrait"
+    },
+    {
+      "id": 10030,
+      "name": "秋の星祭り",
+      "art": "art/30.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: autumn festival terraced ivory garden floating golden star lanterns orange maple trees reflecting pool no people. Critical composition: VIEW THROUGH an autumn branch close in foreground across a vast orchard of amber lights at blue dusk, star lanterns drifting upward, garden architecture distant only. Autumn palette bronze, ochre, burgundy and mauve; soft amber star glow. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "VIEW THROUGH an autumn branch close in foreground across a vast orchard of amber lights at blue dusk, star lanterns drifting upward, garden architecture distant only"
+    },
+    {
+      "id": 10031,
+      "name": "霜花の侍女",
+      "art": "art/31.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. cute adult white ermine-eared female attendant, short white hair, sapphire anime eyes, navy and ivory winter maid dress with frosted floral embroidery, soft fluffy capelet, shy warm smile, delicate silver star hairclip. Composition: portrait from slightly above, character tilts head and clasps hands near chest, gentle shy smile, winter garden blue moonlight, face on left third. Palette: winter deep indigo moon silver and pale icy blue. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "portrait from slightly above, character tilts head and clasps hands near chest, gentle shy smile, winter garden blue moonlight, face on left third"
+    },
+    {
+      "id": 10032,
+      "name": "水鏡の白鳥",
+      "art": "art/32.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: single elegant white swan correct long neck floating on indigo moonlit garden pool frost blossoms. Critical composition: DIRECTLY TOP DOWN one white swan moving diagonally through deep indigo circular pool, long curved neck, circular silver ripples and floating frosted petals, no above water horizon. Winter palette indigo, icy blue, silver and snow white, cool moonlight; NO golden spring light or green leaves. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "DIRECTLY TOP DOWN one white swan moving diagonally through deep indigo circular pool, long curved neck, circular silver ripples and floating frosted petals, no above water horizon"
+    },
+    {
+      "id": 10033,
+      "name": "雪灯の狼",
+      "art": "art/33.webp",
+      "prompt": "ONE original SQUARE premium fantasy collector card illustration, no border or text. Subject: silver wolf with exactly four legs standing among glowing pale blue snow flowers marble moon gate. Critical composition: CLOSE SIDE profile silver wolf walking through snow at left third, frosty breath, luminous blue snowdrops right foreground, distant twilight trees, no arches. Winter palette indigo, icy blue, silver and snow white, cool moonlight; NO golden spring light or green leaves. Shared world THE STARLIT GARDENS, luminous painterly gouache / fine oil, delicate botanical art nouveau details, coherent natural anatomy and object geometry. Reference image is painting quality only, do not copy its centered subject, bridge or background. No lettering, numbers, logos, collage.",
+      "composition": "CLOSE SIDE profile silver wolf walking through snow at left third, frosty breath, luminous blue snowdrops right foreground, distant twilight trees, no arches"
+    },
+    {
+      "id": 10034,
+      "name": "氷晶の亀",
+      "art": "art/34.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: ancient white tortoise with crystalline icy shell beside frozen garden fountain indigo silver atmosphere. Composition: GROUND LEVEL intimate close view from the side: an ancient tortoise slowly traverses a bridge of transparent ice. Shell crystalline but biological turtle anatomy, four short legs, only one head. Huge blurred frozen fountain behind. Tortoise on right half, diagonal ice leading foreground. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "GROUND LEVEL intimate close view from the side: an ancient tortoise slowly traverses a bridge of transparent ice. Shell crystalline but biological turtle anatomy, four short legs, only one head. Huge blurred frozen fountain behind. Tortoise on right half, diagonal ice leading foreground."
+    },
+    {
+      "id": 10035,
+      "name": "夜渡りの鶴",
+      "art": "art/35.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: single silver crane exactly two wings flying over snow covered circular garden arches full moon. Composition: EXTREME WIDE panoramic night sky on square canvas, single crane flying across upper left in clear side profile, exactly TWO wings, long straight neck and two slim legs trailing behind. Vast dark blue winter lake and tiny snow garden islands below, diagonal moonlight, not centered. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "EXTREME WIDE panoramic night sky on square canvas, single crane flying across upper left in clear side profile, exactly TWO wings, long straight neck and two slim legs trailing behind. Vast dark blue winter lake and tiny snow garden islands below, diagonal moonlight, not centered."
+    },
+    {
+      "id": 10036,
+      "name": "月冠の竜姫",
+      "art": "art/36.webp",
+      "prompt": "Create ONE original SQUARE fantasy trading-card illustration. regal beautiful adult dragon princess with two small pearl horns, long silver white hair, luminous violet anime eyes, moon crown and elegant layered indigo and ivory gown with silver embroidery, one graceful white dragon tail. Composition: elegant side seated pose on crescent shaped stone seat, sweeping long hair and ONE dragon tail, head turned toward viewer, distant moon at upper left, majestic serene smile. Palette: winter deep indigo moon silver and pale icy blue. CUTE refined anime character face with expressive eyes and appealing personality, visibly adult proportions, elegant modest fantasy clothing with extraordinary fabric details, soft luminous painterly gouache / oil rendering. World THE STARLIT GARDENS; reference image ONLY establishes environmental rendering richness, ivory garden architecture and magical star motifs, not creature subject. Blend beautiful anime character with lush painterly background, premium collectible quality. Two arms, two hands, five fingers per hand when visible, no fused fingers or duplicated limbs. Keep face and key prop inside central 80 percent. No text, logos, card frame, collage or modern objects. One complete coherent scene.",
+      "composition": "elegant side seated pose on crescent shaped stone seat, sweeping long hair and ONE dragon tail, head turned toward viewer, distant moon at upper left, majestic serene smile"
+    },
+    {
+      "id": 10037,
+      "name": "静かなまどろみ",
+      "art": "art/37.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: delicate translucent crescent cradle holding a glowing blue star above snow flowers no creatures. Composition: EXTREME MACRO still life: a delicate small crescent cradle of translucent ice cupping one brilliant sapphire star at lower right. Snowdrop flowers defocused left, exquisite refracted light. Asymmetric diagonal, dark indigo background, no architecture. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "EXTREME MACRO still life: a delicate small crescent cradle of translucent ice cupping one brilliant sapphire star at lower right. Snowdrop flowers defocused left, exquisite refracted light. Asymmetric diagonal, dark indigo background, no architecture."
+    },
+    {
+      "id": 10038,
+      "name": "澄みわたる水鏡",
+      "art": "art/38.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: perfect circular silver mirror pool reflecting full moon white garden pillars winter frost no text. Composition: TOP DOWN geometric composition: round silver mirror pool offset toward upper right reflects the moon, frost lace radiates into deep blue water, white marble steps cut diagonally across lower left, no horizon, no creatures. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "TOP DOWN geometric composition: round silver mirror pool offset toward upper right reflects the moon, frost lace radiates into deep blue water, white marble steps cut diagonally across lower left, no horizon, no creatures."
+    },
+    {
+      "id": 10039,
+      "name": "星霜の門",
+      "art": "art/39.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: majestic circular ivory portal with intricate frost crystals opening onto indigo starry sky moonlit garden. Composition: WORM EYE very low oblique view looking through monumental circular ivory portal covered in sparkling frost. Portal cropped off upper and left edges, tiny cobalt starfield visible through. Snow flower stems in close foreground, immense sense of scale, off center. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "WORM EYE very low oblique view looking through monumental circular ivory portal covered in sparkling frost. Portal cropped off upper and left edges, tiny cobalt starfield visible through. Snow flower stems in close foreground, immense sense of scale, off center."
+    },
+    {
+      "id": 10040,
+      "name": "冬の星祭り",
+      "art": "art/40.webp",
+      "prompt": "Create ONE finished fantasy collectible card ART ILLUSTRATION, square canvas. Reference is ONLY for the shared world, painterly finish, ivory garden masonry and luminous star motif; do NOT reuse its central fox, pose or layout. Subject: winter festival snow covered ivory garden floating silver blue star lanterns serene indigo night no people. Composition: LONG WIDE view from elevated snowy balcony across distant winding winter garden and river. Tiny silver blue lanterns form an S curve into distance, grand dark indigo night sky upper half with falling starlight. Quiet majestic finale, not a centered symmetrical gate. Same world 'The Starlit Gardens': elegant seasonal magical garden, rich indigo/silver/ice blue palette of the winter Moonwhite garden, luminous small gold/silver star highlights, exquisite contemporary fantasy card art, confident clean silhouette, dimensional painterly detail, beautiful light and readable focus. Vary camera and scale strongly. Art ONLY, NO text, letters, numbers, card border, watermark, typography, UI or collage. Correct coherent anatomy and object geometry; no duplicate limbs or floating disconnected pieces. All essential subjects fit within art, natural coherent perspective.",
+      "composition": "LONG WIDE view from elevated snowy balcony across distant winding winter garden and river. Tiny silver blue lanterns form an S curve into distance, grand dark indigo night sky upper half with falling starlight. Quiet majestic finale, not a centered symmetrical gate."
+    }
+  ]
+}

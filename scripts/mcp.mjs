@@ -1,0 +1,20 @@
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { Client } from '@modelcontextprotocol/sdk/client/index.js';
+import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
+import { ListToolsRequestSchema, CallToolRequestSchema } from '@modelcontextprotocol/sdk/types.js';
+
+const file = process.env.TCG_CONNECTION_FILE || resolve(import.meta.dirname, '../.codex-temp/ai-connection.json');
+const { url, token } = JSON.parse(await readFile(file, 'utf8'));
+const address = new URL(url);
+if (address.protocol !== 'http:' || address.hostname !== '127.0.0.1' || address.pathname !== '/mcp') throw new Error('接続先はこの端末のMCPに限ります。');
+const client = new Client({ name: 'tcg-stdio-bridge', version: '0.1.0' });
+const transport = new StreamableHTTPClientTransport(address, { requestInit: { headers: { Authorization: `Bearer ${token}` } } });
+await client.connect(transport);
+const server = new Server({ name: 'tcg-local', version: '0.1.0' }, { capabilities: { tools: {} } });
+server.setRequestHandler(ListToolsRequestSchema, () => client.listTools());
+server.setRequestHandler(CallToolRequestSchema, request => client.callTool(request.params, undefined, { timeout: 125000 }));
+await server.connect(new StdioServerTransport());
+process.stdin.on('end', () => { void transport.terminateSession().catch(() => {}).finally(() => client.close()); });

@@ -1,0 +1,23 @@
+import groovy.json.JsonOutput
+
+// Run with :app:exportReleaseLicenseInventory. No app files or dependencies change.
+gradle.projectsEvaluated {
+    def app = rootProject.findProject(':app')
+    if (app == null) return
+    app.tasks.register('exportReleaseLicenseInventory') {
+        doLast {
+            def config = app.configurations.findByName('universalReleaseRuntimeClasspath') ?: app.configurations.findByName('releaseRuntimeClasspath')
+            if (config == null) throw new GradleException("No release configuration: ${app.configurations.names}")
+            def artifacts = config.incoming.resolutionResult.allComponents.findAll {
+                it.id instanceof org.gradle.api.artifacts.component.ModuleComponentIdentifier
+            }.collect { component ->
+                def id = component.id
+                [group: id.group, name: id.module, version: id.version]
+            }.sort { a, b -> "${a.group}:${a.name}:${a.version}" <=> "${b.group}:${b.name}:${b.version}" }
+            def output = new File(app.rootProject.projectDir, '../../../.codex-temp/release-android-dependencies.json')
+            output.parentFile.mkdirs()
+            output.text = JsonOutput.prettyPrint(JsonOutput.toJson(artifacts)) + '\n'
+            println "License inventory: ${artifacts.size()} artifacts -> ${output}"
+        }
+    }
+}

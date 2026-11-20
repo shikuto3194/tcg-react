@@ -1,0 +1,128 @@
+/* Shared appearance refinements. Preserve the canvas, base colors, shapes, type
+   metrics and layout. Counter rims and selection marks are paint only. */
+.app-appearance {
+  --counter-raised: inset 0 1px 0 #ffffff80, inset 0 -2px 0 #0000001a, 0 1px 3px #00000026;
+}
+
+/* Grid counters keep a flat fill inside their existing border. */
+.app-appearance .card-grid-controls { --counter-raised: 0 1px 3px #00000026; }
+
+.app-appearance button:is(.plusBtn, .minusBtn, .cdm-btn-plus, .cdm-btn-minus):disabled {
+  box-shadow: none !important;
+}
+.app-appearance button:focus-visible {
+  outline: 2px solid #1976d2;
+  outline-offset: 2px;
+}
+
+/* Replace the emoji and text glyphs without changing button text or dimensions. */
+.app-appearance .tab-btn:first-child,
+.app-appearance button.view-toggle-btn:not(.side-mode-btn) {
+  position: relative;
+  color: transparent !important;
+  --detail-icon-color: #1976d2;
+}
+.app-appearance .tab-btn:first-child.active { --detail-icon-color: #222; }
+.app-appearance button.view-toggle-btn.active:not(.side-mode-btn) {
+  --detail-icon-color: #fff;
+}
+.app-appearance .tab-btn:first-child {
+  --detail-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 10 9-7 9 7M5 9v11h5v-7h4v7h5V9'/%3E%3C/svg%3E");
+}
+.app-appearance button.view-toggle-btn:not(.side-mode-btn) {
+  --detail-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round'%3E%3Cpath d='M9 5h12M9 12h12M9 19h12M3 5h1M3 12h1M3 19h1'/%3E%3C/svg%3E");
+}
+.app-appearance button.view-toggle-btn:not(.side-mode-btn):last-child {
+  --detail-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8'%3E%3Crect x='3' y='3' width='7' height='7' rx='1'/%3E%3Crect x='14' y='3' width='7' height='7' rx='1'/%3E%3Crect x='3' y='14' width='7' height='7' rx='1'/%3E%3Crect x='14' y='14' width='7' height='7' rx='1'/%3E%3C/svg%3E");
+}
+.app-appearance .tab-btn:first-child::before,
+.app-appearance button.view-toggle-btn:not(.side-mode-btn)::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  inset: calc(50% - 10px) auto auto calc(50% - 10px);
+  background-color: var(--detail-icon-color);
+  mask: var(--detail-icon) center / contain no-repeat;
+  pointer-events: none;
+}
+
+/* Keep card art crisp; the counter rim supplies the small amount of depth. */
+.app-appearance :is(.card-grid-img-wrap, .dvm-grid-cell) {
+  box-shadow: 0 1px 3px #00000026 !important;
+}
+.app-appearance .card-grid-img { box-shadow: 0 1px 3px #00000026; }
+.app-appearance .dvm-grid-cell:hover { box-shadow: 0 1px 4px #00000038 !important; }
+
+/* The same plus/minus strokes in grid, list and detail views. Retain the text
+   for accessibility and intrinsic sizing; pseudo-elements cannot catch clicks. */
+.app-appearance :is(.plusBtn, .minusBtn, .cdm-btn-plus, .cdm-btn-minus) {
+  position: relative;
+  color: transparent !important;
+  --counter-ink: #fff;
+  --counter-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round'%3E%3Cpath d='M4 10h12M10 4v12'/%3E%3C/svg%3E");
+  box-shadow: var(--counter-raised) !important;
+}
+.app-appearance :is(.minusBtn, .cdm-btn-minus) {
+  --counter-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round'%3E%3Cpath d='M4 10h12'/%3E%3C/svg%3E");
+}
+.app-appearance button:is(.plusBtn, .minusBtn, .cdm-btn-plus, .cdm-btn-minus):is(:hover, :focus, :active, :disabled) {
+  color: transparent !important;
+}
+.app-appearance .card-grid-controls .minusBtn { --counter-ink: var(--zone-color, #1976d2); }
+.app-appearance .card-grid-controls .minusBtn:is(:hover, :focus, :active):not(:disabled) { --counter-ink: #fff; }
+.app-appearance :is(.plusBtn, .minusBtn, .cdm-btn-plus, .cdm-btn-minus)::before {
+  content: '';
+  position: absolute;
+  inset: calc(50% - 0.5em) auto auto calc(50% - 0.5em);
+  width: 1em;
+  height: 1em;
+  background-color: var(--counter-ink);
+  mask: var(--counter-icon) center / contain no-repeat;
+  pointer-events: none;
+}
+.app-appearance :is(.card-badge, .dvm-grid-badge) {
+  box-shadow: inset 0 0 0 1px #ffffff80, inset 0 1px 0 #ffffff80,
+    inset 0 -2px 0 #0000001a, 0 1px 3px #00000026 !important;
+  text-shadow: 0 1px 1px #00000026;
+}
+
+/* Tabs, side decks and form selections have a bottom mark. Hover/focus on an
+   unselected control keeps its surface distinct from the selected control. */
+.app-appearance .tab-btn { box-shadow: none !important; }
+.app-appearance .tab-btn:is(:hover, :focus, :active) {
+  background: transparent !important;
+  color: #1976d2 !important;
+}
+.app-appearance .tab-btn.active {
+  background: #fff !important;
+  color: #222 !important;
+  border-bottom-color: transparent;
+  box-shadow: inset 0 -3px 0 #1976d2 !important;
+}
+.app-appearance .tab-btn:first-child { color: transparent !important; }
+.app-appearance button.view-toggle-btn:not(.side-mode-btn, .active):is(:hover, :focus, :active) {
+  background: #eee !important;
+  --detail-icon-color: #1976d2;
+}
+.app-appearance :is(.view-toggle-btn.side-mode-btn.active, .match-steps > button[aria-current="step"],
+  .mock-game-list button[aria-current], .match-results label[data-selected="true"]) {
+  box-shadow: inset 0 -3px 0 var(--selection-mark, #1976d2) !important;
+}
+.app-appearance .view-toggle-btn.side-mode-btn.active { --selection-mark: #ffffffcc; }
+.app-appearance button.view-toggle-btn.active:not(.side-mode-btn) { border-color: #1976d2; }
+
+/* Red, green and gray buttons inherited a blue border from the global rule. */
+.app-appearance #saveDeckBtn:not(:disabled) { border-color: #388e3c; }
+.app-appearance #saveDeckBtn:not(:disabled):is(:hover, :focus, :active) { border-color: #256d27; }
+.app-appearance #clearDeckBtn:not(:disabled) { border-color: #bbb; }
+.app-appearance #clearDeckBtn:not(:disabled):is(:hover, :focus, :active) { border-color: #888; }
+.app-appearance .builder-controls button[style*="211, 47, 47"]:not(:disabled),
+.app-appearance .deck-actions button[style*="211, 47, 47"]:not(:disabled),
+.app-appearance .match-filter-reset:not(:disabled) { border-color: #d32f2f; }
+.app-appearance .builder-controls button[style*="211, 47, 47"]:not(:disabled):is(:hover, :focus, :active),
+.app-appearance .deck-actions button[style*="211, 47, 47"]:not(:disabled):is(:hover, :focus, :active),
+.app-appearance .match-filter-reset:not(:disabled):is(:hover, :focus, :active) {
+  background-color: #b71c1c !important;
+  border-color: #b71c1c;
+}

@@ -1,0 +1,4 @@
+# Preserve collected third-party files exactly, including upstream whitespace.
+distribution/licenses/* -text
+distribution/licenses/THIRD_PARTY_NOTICES.native.txt -whitespace
+distribution/licenses/native-inventory.json whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
