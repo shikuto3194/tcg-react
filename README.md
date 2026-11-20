@@ -1,14 +1,22 @@
 # TCG マネージャー
 
-手持ちのカード画像やカード情報を取り込んで、複数のカードゲームの所持枚数・デッキ・戦績を一か所で管理するローカルアプリです。Windows版とAndroid版をBOOTHで配布しています。
+手持ちのカード画像やカード情報を取り込んで、複数のカードゲームの所持枚数・デッキ・戦績を一か所で管理するPC向けのローカルアプリです。Windows版とAndroid版をBOOTHで配布しています。
 
 [BOOTHの商品ページ](https://shikuto3194.booth.pm/items/8965497)
 
-## スマートフォンでの操作画面
+## PCでの操作画面
 
-| カード検索 | デッキ構築 |
-| --- | --- |
-| <img src="screenshots/06-phone-search.webp" alt="スマートフォンの縦画面でカードを検索・絞り込み" width="280"> | <img src="screenshots/08-phone-deck-builder.webp" alt="スマートフォンの縦画面でデッキを構築" width="280"> |
+### 戦績グラフ
+
+記録した対戦結果から、日ごとの勝率の推移や勝敗の内訳を確認できます。画面はサンプルデータです。[グラフの実装](src/analysis/ResultsChart.jsx)
+
+![PC画面で勝率の推移と対戦履歴を確認](screenshots/pc-win-rate.webp)
+
+### MCPによるAI連携
+
+Windows版では、MCPを介してAIアプリからカードの整理、デッキ作成、戦績の確認を依頼できます。接続の開始・停止は設定画面から操作します。[接続設定の画面実装](src/automation/AIControls.jsx)
+
+![Windows版のAI連携設定でMCPの接続状況を確認](screenshots/pc-mcp.webp)
 
 ## できること
 
