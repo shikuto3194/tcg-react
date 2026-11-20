@@ -59,3 +59,9 @@ npm run dev
 ```
 
 公開用のソーススナップショットです。配布版の入手と利用条件はBOOTHの商品ページを参照してください。[第三者ライセンス](distribution/licenses)
+
+## 関連作品
+
+- [幻想符 Simulator](https://github.com/shikuto3194/orica-simulator-interview)
+- [ACGマネージャー](https://github.com/shikuto3194/acg-react-interview)
+- [オリカマネージャー](https://github.com/shikuto3194/orika-react-interview)
